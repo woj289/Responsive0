@@ -1,0 +1,336 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+  color: black !important;
+    text-decoration: none !important;
+}
+
+.bg {
+  background-image: url("image/slider.png");
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu {
+  width: 100%;
+  height: 52px;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+}
+.menu-content{
+  width: 70%;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100;
+}
+.use{
+  height: 100%;
+}
+.navbar-inverse  {
+  background-color:white !important;
+  border-color:white !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color:black !important;
+}
+.navbar-brand
+{
+  margin-top: -7px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 10px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white !important;
+  color: rgb(82,190,127) !important;
+  border: 2px solid rgb(82,190,127) !important;
+  border-radius: 5px;
+}
+.slider-content{
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+.blue{
+  color: rgb(41,173,208);
+}
+.shape1{
+  width: 600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+.shape-image{
+  float: right;
+}
+.circle-image{
+  float: left;
+  z-index: -1;
+}
+.mySlides{
+  z-index: 1;
+}
+.w3-content {
+  overflow: hidden;
+  width: 90px;
+  margin: 0;
+  float: left;
+}
+.w3-section.{
+  float: left;
+  overflow: hidden;
+  width: 90px;
+  margin: 0;
+}
+.link{
+  width: 180px;
+  height: 40px;
+  margin-left: 230px;
+  margin-top: 63px;
+  z-index: 0;
+  text-decoration: none;
+  position: absolute;
+}
+.shape2{
+  width: 780px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-left: 180px;
+}
+.slider2{
+  float: right;
+    margin-top: -10px;
+}
+.shape-image1{
+  margin-left: 240px;
+}
+.down-link{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(158, 171, 180);
+}
+.down-link-image{
+  margin-top: -12px;
+}
+
+.line{
+  width: 100%;
+  height: 10px;
+  background-color: rgb(0, 169, 232);
+}
+
+.client{
+  width: 100%;
+  height: 85px;
+  padding-bottom: 20px;
+}
+.client-content{
+  width: 70%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+    padding-bottom: 20px;
+
+}
+.use-chat{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 12px;
+  color: rgb(158, 171, 180);
+  float: left;
+}
+.bit-bay{
+  float: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 80px;
+}
+.client-photo{
+  float: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 25%;
+}
+.client-text{
+  float: left;
+  padding-top: 25px;
+  margin-left: 20px;
+  color: rgb(158, 171, 180);
+}
+.chat{
+  width: 100%;
+  background-color: rgb(246, 248, 249);
+  height: 420px;
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  z-index: -10;
+  overflow: hidden;
+}
+.chat-slider{
+  z-index: 2;
+  padding-top: 100px;
+  padding-left: 100px;
+  position: absolute;
+}
+.chat-photo{
+  padding-top: 30px;
+  z-index: 1;
+  position: absolute;
+  width: 60%;
+}
+.chat-content{
+  float: left;
+  margin-left: 120px;
+  margin-top: 100px;
+  width: 30%;
+  float: right;
+  margin-right: 150px;
+}
+.chat-line{
+  margin-left: 1px;
+  margin-top: 1px;
+  width: 70px;
+  height: 5px;
+  background-color: rgb(17, 81, 123);
+}
+.chat-text{
+  width: 100%;
+  float: left;
+  color: rgb(158, 171, 180);
+  text-align: justify;
+}
+
+.zrzut{
+  width: 100%;
+  height: 470px;
+  font-family: 'Lato', sans-serif;
+}
+.zrzut-width{
+  position: relative;
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+}
+.zrzut-content{
+  float: left;
+  height: 420px;
+  margin-top: 200px;
+  margin-left: 120px;
+  margin-top: 100px;
+  width: 30%;
+}
+.zrzut-image
+{
+  position: absolute;
+  right: -100px;
+  bottom : -15px;
+  float: left;
+}
+.share{
+  width: 100%;
+  height: 420px;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  background-color: rgb(246, 248, 249);
+  z-index: -10;
+}
+.share-photo{
+  padding-top: 30px;
+  z-index: 1;
+  position: absolute;
+  width: 60%;
+  margin-left: -150px;
+}
+.share-content{
+  float: left;
+  margin-left: 120px;
+  margin-top: 100px;
+  width: 30%;
+  float: right;
+  margin-right: 150px;
+}
+.konf-image
+{
+  position: absolute;
+  right: 50px;
+  bottom : -15px;
+  float: left;
+}
+.cennik{
+  width: 100%;
+  height: 580px;
+  background-color: rgb(43, 47, 55);
+  position: relative;
+}
+.gird-width{
+  width: 900px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-cennik{
+  width: 100%;
+  height: auto;
+}
+.free{
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(0,169,232);
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  margin-top: -20px;
+  color: white;
+}
+.button {
+  background-color: rgb(0, 119, 158);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.menu-down{
+  background-color: rgb(238, 242, 244);
+  width: 100%;
+  height: 62px;
+}
+.menu-content-down{
+  width: 70%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100;
+  padding-top: 14px;
+  font-size: 10px;
+}

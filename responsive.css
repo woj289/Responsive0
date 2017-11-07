@@ -1,0 +1,187 @@
+@media (min-width: 1700px){
+.menu {
+  width: 100%;
+  height: 58px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.menu-content{
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+@media (min-width: 1800px){
+.chat-width {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.zrzut-width {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.share-width {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.client-content{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media (max-width: 1170px){
+.chat-content{
+  margin-right: 50px;
+}
+}
+
+@media (max-width: 1100px){
+.client-content{
+  width: 100%;
+}
+.chat-content{
+  right: 3%;
+}
+.chat-content{
+  margin-right: 15px;
+}
+.zrzut-content{
+  margin-left: 40px;
+}
+}
+@media (max-width: 1000px){
+.chat{
+  height: 250px;
+}
+.chat-photo{
+  display: none;
+}
+.chat-slider{
+  display: none;
+}
+.chat-content{
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin-top: 40px;
+  width: 80%;
+}
+.zrzut{
+  height: 280px;
+}
+.zrzut-image{
+  display: none;
+}
+.zrzut-content{
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin-top: 40px;
+  width: 80%;
+}
+.share{
+  height: 280px;
+}
+.share-photo{
+  display: none;
+}
+.share-content{
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin-top: 40px;
+  padding-top: 25px;
+  width: 80%;
+}
+.konf-image{
+  display: none;
+}
+.gird-width{
+  width: 100%;
+  height: auto;
+}
+}
+@media (max-width: 900px){
+.menu-content{
+  width: 100%;
+}
+}
+@media (max-width: 800px){
+.shape2{
+  width: 610px;
+  padding-left: 10px;
+}
+.down-link-image{
+  margin-top: -1px;
+}
+.use-chat{
+  width: 100%;
+  text-align: center;
+}
+.bit-bay{
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+.client-photo{
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+.client-text{
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+.chat{
+  margin-top: 350px;
+}
+}
+@media (max-width: 776px){
+.menu-content{
+  width: 100%;
+}
+.slider-content{
+  font-size: 20px;
+}
+}
+@media (max-width: 700px){
+.cennik{
+  height: 440px;
+}
+.free{
+  height: 240px;
+}
+}
+@media (max-width: 550px){
+.cennik{
+  height: 380px;
+}
+}
+@media (max-width: 480px){
+.cennik{
+  height: 320px;
+}
+.free{
+  height: 290px;
+}
+}
+@media (max-width: 400px){
+.cennik{
+  height: 280px;
+}
+}
+@media (max-width: 370px){
+.cennik{
+  height: 250px;
+}
+}
